@@ -8,6 +8,12 @@ judged again. The analyses here ask when people **weakened** their position
 (changed verdict, or held it with less confidence) and when they
 **strengthened** it.
 
+![Study design: deriving controversy and group certainty from an AITA discussion, and the three-step judge / see-signal / re-judge task](assets/teaser.png)
+
+*How a dilemma's controversy and group certainty are derived from its comments
+(top), and the three-step task in which participants judge, see one of four
+community-signal conditions, then re-judge (bottom).*
+
 | | |
 | --- | --- |
 | Responses | 4318 |
