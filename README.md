@@ -2,6 +2,9 @@
 
 Code and data for the paper.
 
+**[Interactive overview →](https://moralmoments.vercel.app/)** — the MoralMoments dataset,
+study design, and findings, presented interactively.
+
 Participants judged real Reddit *Am I the Asshole?* dilemmas, were shown one of
 four signal conditions about how other people had judged the same dilemma, then
 judged again. The analyses here ask when people **weakened** their position
