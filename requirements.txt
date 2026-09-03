@@ -1,0 +1,25 @@
+# Python dependencies for the figure notebooks.
+#
+#     pip install -r requirements.txt
+#     python -m spacy download en_core_web_sm     # fig1 only
+#
+# Lower bounds are the versions the analysis was developed and run against.
+
+pandas>=2.0
+numpy>=1.24,<2
+matplotlib>=3.7
+seaborn>=0.13
+
+# Hard floor: fig2 and fig3be use scipy.stats.false_discovery_control,
+# which does not exist before 1.11.
+scipy>=1.11
+
+# pandas needs this to read the .xlsx survey export. It is never imported
+# directly, so a bare pandas install fails at the first read_excel call.
+openpyxl>=3.1
+
+# fig1 only
+wordcloud>=1.9
+spacy>=3.7
+
+jupyter>=1.0

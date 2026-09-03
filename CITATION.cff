@@ -1,0 +1,97 @@
+# Citation metadata. GitHub renders a "Cite this repository" button from this
+# file, and Zenodo reads it when minting a DOI for a release.
+#
+# Authors, title and keywords are taken from the manuscript
+# (section/whole-article.tex). ORCIDs are the one field that cannot be
+# recovered from the draft -- add them before the first release, because
+# Zenodo matches contributors on ORCID.
+cff-version: 1.2.0
+title: "Controversy and Group Certainty Jointly Shape Everyday Moral Judgments: code and data"
+message: "If you use this code or data, please cite both the paper and this repository."
+type: software
+
+authors:
+  - given-names: Ziyu
+    family-names: Chen
+    email: Ziyu.Chen@anu.edu.au
+    affiliation: The Australian National University, Australia
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+  - given-names: Lexing
+    family-names: Xie
+    affiliation: The Australian National University, Australia
+  - given-names: Minjeong
+    family-names: Shin
+    affiliation: The Australian National University, Australia
+  - given-names: Tuan Dung
+    family-names: Nguyen
+    affiliation: University of Pennsylvania, United States
+  - given-names: Colin
+    family-names: Klein
+    affiliation: The Australian National University, Australia
+  - given-names: Chenhao
+    family-names: Tan
+    affiliation: University of Chicago, United States
+  - given-names: Nick
+    family-names: Schuster
+    affiliation: University of Georgia, United States
+  - given-names: Nicholas George
+    family-names: Carroll
+    affiliation: The Australian National University, Australia
+  - given-names: Alasdair
+    family-names: Tran
+    affiliation: The Australian National University, Australia
+
+repository-code: "https://github.com/ZiyuChen0410/Controversy-and-Group-Certainty"
+
+abstract: >-
+  Code and public data reproducing the figures and statistics for a study of
+  how people revise moral judgments after seeing how others judged the same
+  real-life dilemma. Participants judged Reddit "Am I the Asshole?" dilemmas,
+  were shown one of four signal conditions describing the controversy and
+  group certainty of others' judgments, then judged again. The analyses
+  characterise when people weakened their position (changed verdict, or held
+  it with less confidence) and when they strengthened it.
+
+keywords:
+  - moral judgment
+  - social influence
+  - opinion change
+  - aggregate opinion
+  - controversy
+  - group certainty
+  - minority influence
+
+license: MIT
+license-url: "https://opensource.org/licenses/MIT"
+
+# `license` above refers to the code. The data in survey_data/ is released
+# under CC BY 4.0, and the restricted tier is not openly licensed -- see
+# README.md.
+
+# Uncomment and complete once the paper has a DOI, so that citations point at
+# the paper rather than at the software.
+# preferred-citation:
+#   type: article
+#   title: "Controversy and Group Certainty Jointly Shape Everyday Moral Judgments"
+#   authors:
+#     - given-names: Ziyu
+#       family-names: Chen
+#     - given-names: Lexing
+#       family-names: Xie
+#     - given-names: Minjeong
+#       family-names: Shin
+#     - given-names: Tuan Dung
+#       family-names: Nguyen
+#     - given-names: Colin
+#       family-names: Klein
+#     - given-names: Chenhao
+#       family-names: Tan
+#     - given-names: Nick
+#       family-names: Schuster
+#     - given-names: Nicholas George
+#       family-names: Carroll
+#     - given-names: Alasdair
+#       family-names: Tran
+#   journal: "<journal>"
+#   year: <year>
+#   doi: "<paper doi>"

@@ -1,0 +1,39 @@
+# ===========================================================================
+# Restricted data — must never reach this repository.
+#
+# The unredacted master (real recruitment IDs, participant free text, the full
+# Reddit comment corpus, and the pseudonym key) is held outside this repo. If
+# you ever copy it in for a local run, these rules stop it being committed.
+# ===========================================================================
+survey_data_private/
+**/.pseudonym_salt
+**/pseudonym_map.csv
+reviewer_data_bundle*.zip
+reviewer_data_bundle/
+README_RESTRICTED.txt
+
+# ===========================================================================
+# Editor / OS / runtime noise
+# ===========================================================================
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+.Rproj.user/
+.venv/
+venv/
+.env
+
+# R writes these when a plot is printed to the default device outside Jupyter
+Rplots.pdf
+Rplot*.png
+
+# ===========================================================================
+# Note on figures/
+#
+# The rendered figures ARE committed, so readers can see every panel without
+# installing R and Python or waiting for the ~30 min model selection. Nothing
+# under figures/ is ignored — only the stray R device dumps above.
+# ===========================================================================

@@ -1,6 +1,7 @@
 MIT License
 
-Copyright (c) 2026 Ziyu Chen
+Copyright (c) 2026 Ziyu Chen, Lexing Xie, Minjeong Shin, Tuan Dung Nguyen,
+Colin Klein, Chenhao Tan, Nick Schuster, Nicholas George Carroll, Alasdair Tran
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +20,21 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+NOTE ON DATA
+
+This licence covers the code (the notebooks). It does not cover the data.
+
+  * survey_data/ (the public tier in this repository) is released under
+    Creative Commons Attribution 4.0 International (CC BY 4.0).
+    https://creativecommons.org/licenses/by/4.0/
+
+  * The restricted tier -- participant deliberation free text and the full
+    Reddit comment corpus -- is not openly licensed and is not distributed
+    here. See "Data availability" in README.md.
+
+  * 135_posts.csv and 54827_comments_135_posts.csv derive from public Reddit
+    content, which remains subject to Reddit's terms and the rights of the
+    original authors.
